@@ -26,7 +26,8 @@ I took Particle's [firmware for the sheild](https://github.com/particle-iot/xmas
 - I chose the Midi Speed Factor to be 1X and the Percentage of Tone to Be Played to be 90%
 - I cnose for Device the Arduino (C, Tone) option
 - To check the track, I copied the source code to an Arduino simulator available at [Autodesk TInkercad Circuits](https://www.tinkercad.com/learn/#/learn/circuits)
-- I then had to get the tones and delays in to the format used in `songs.h`. I did this with a lot of ugly search-and-replace, and it could probably be done with some slick regex if I knew that better...
+- I selected the Arduino Uno and connected a piezo buzzer to pin 11 and ground
+- I then had to get the tones and delays into the array format used in `songs.h`. I did this with a lot of ugly search-and-replace, but it could probably be done with some slick regex (wish I knew that better...)
 
 ## Contributions
 
